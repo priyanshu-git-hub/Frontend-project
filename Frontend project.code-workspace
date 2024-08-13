@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.inlayHints.fontSize": 0,
+		"editor.codeLensFontSize": 0,
+		"editor.fontSize": 20
+	}
+}

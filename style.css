@@ -1,0 +1,163 @@
+*{
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh; 
+}
+
+
+#back{
+    width: 100%;
+    height: 100%;
+}
+
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#front{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+}
+#working_area{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1920px;
+    height: 100vh;
+
+}
+#nav{
+    pointer-events: all;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height : 20px;
+    padding: 60px 10px;
+}
+#nav img {
+    height : 59px;
+    padding: 0px 12px ;
+}
+#nleft{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+#nleft a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+    color: #ffff;
+    font-weight: 1000;
+    font-family: "Gilroy-Regular";
+}
+#nright{
+    align-items: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#nright a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #ffff;
+    font-weight: 1000;
+    font-family: "Gilroy-Regular";
+}
+
+#right_content{
+    transform:translate(0%,-50%) ;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+
+
+}
+
+#rleft{
+   min-width: 50%;
+
+}
+#rleft .elem h1{
+    position: absolute;
+    top: 100%;
+    font-style: italic;
+    left: 0;
+    left: 0%;
+    font-weight: 500;
+    line-height: 0.9;
+    font-size: 9vw;
+    font-family: "kajiro";
+    color:#ffff;
+}
+#rleft .elem h1:nth-child(1){
+  top: 0;  
+}
+#rleft .elem{
+    height: 8vw;
+    position: relative;
+    overflow: hidden;
+}
+#rleft button{
+    pointer-events: all;
+    font-weight: 1;
+    margin-top: 2vw;
+    padding: 0.5vw 4vw;
+    font-size: 3vw;
+    font-family:"kajiro";
+}
+
+#rright{
+    width: 18%;
+    flex-direction: column;
+    align-items: flex-end;
+    display: flex;
+    color: azure;
+
+ }
+ #rright p{
+    font-size: 15px;
+    text-align: right;
+    font-weight: 300;
+ }
+ #rright #imagediv{
+    width: 90%;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-position: center ;
+    background-image:url(https://images.unsplash.com/photo-1723239405988-1ec310c69291?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+    background-size: cover;
+
+
+ }
+ #rright p:nth-child(3){
+    margin-bottom: 80px;
+ }
+
+
+
+
